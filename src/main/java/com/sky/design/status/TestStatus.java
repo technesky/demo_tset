@@ -1,5 +1,8 @@
 package com.sky.design.status;
 
+import org.springframework.beans.BeanUtils;
+
+import java.beans.PropertyDescriptor;
 import java.util.Collections;
 
 /**
@@ -13,6 +16,7 @@ public class TestStatus {
     public static void main(String[] args) {
         CommonResponse<Emp> commonResponse=new CommonResponse<>();
         Emp emp=new Emp("abc",1);
+        emp.setIp("1");
         commonResponse.setObj(emp);
         StatusUtil.execto(new ResultInterFace() {
             @Override
@@ -28,14 +32,10 @@ public class TestStatus {
             }
         },commonResponse);
 
-        yyyyy();
 
         System.out.println(emp.getName());
     }
 
-    private static void yyyyy() {
-        String ttt = TestStatus.ttt();
-    }
 
 
     public static String ttt(){

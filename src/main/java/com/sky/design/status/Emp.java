@@ -15,7 +15,7 @@ import java.io.Serializable;
 @Setter
 @Getter
 @ToString(callSuper = true)
-public class Emp implements Serializable {
+public class Emp extends Person implements Serializable {
 
     private String name;
     private int id;
