@@ -1,5 +1,8 @@
 package com.sky.java8;
 
+import java.time.LocalDate;
+import java.util.Date;
+
 /**
  * Created by Administrator on 2018/6/26.
  */
@@ -7,7 +10,24 @@ public class Employee {
     private String name;
     private int age;
     private double salary;
+    private Date date;
+    private LocalDate localDate;
 
+    public LocalDate getLocalDate() {
+        return localDate;
+    }
+
+    public void setLocalDate(LocalDate localDate) {
+        this.localDate = localDate;
+    }
+
+    public Date getDate() {
+        return date;
+    }
+
+    public void setDate(Date date) {
+        this.date = date;
+    }
 
     public String getName() {
         return name;
@@ -39,15 +59,22 @@ public class Employee {
         this.salary = salary;
     }
 
+    public Employee(String name, int age, double salary, Date date) {
+        this.name = name;
+        this.age = age;
+        this.salary = salary;
+        this.date = date;
+    }
+
+    public Employee(String name, int age, double salary,  LocalDate localDate) {
+        this.name = name;
+        this.age = age;
+        this.salary = salary;
+        this.localDate = localDate;
+    }
+
     public Employee() {
     }
 
-    @Override
-    public String toString() {
-        return "Employee{" +
-                "name='" + name + '\'' +
-                ", age=" + age +
-                ", salary=" + salary +
-                '}';
-    }
+
 }
