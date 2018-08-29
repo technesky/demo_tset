@@ -31,9 +31,10 @@ public class RedissonTest {
         System.out.println(fairLock.toString());
         // 尝试加锁，最多等待10秒，上锁以后10秒自动解锁
         boolean res = fairLock.tryLock(10, 10, TimeUnit.SECONDS);
-        fairLock.lock();
+        //fairLock.lock();
         System.out.println(res);
-        //fairLock.unlock();
+        fairLock.unlock();
+
 
 
         //有界阻塞队列
