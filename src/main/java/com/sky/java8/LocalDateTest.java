@@ -64,11 +64,21 @@ public class LocalDateTest {
 
         for (int i = 0; i <=days ; i++) {
 
+            int finalI = i;
+            List<Employee> liste=employees.stream().filter((e)->{
+                return e.getLocalDate().compareTo(one.plusDays(finalI))==0;
+            }).collect(Collectors.toList());
+
+            liste.forEach((e)->{
+                System.out.println(e.getLocalDate()+"==="+e.getName());
+
+            });
+/*
             if (list.contains(one.plusDays(i))){
                 System.out.println(one.plusDays(i)+"   true");
             }else{
                 System.out.println(one.plusDays(i)+"   false");
-            }
+            }*/
 
             /*for (Employee e:employees) {
                 if (one.plusDays(i).compareTo(e.getLocalDate())!=0){
