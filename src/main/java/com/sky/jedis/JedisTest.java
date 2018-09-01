@@ -14,7 +14,8 @@ import java.util.*;
  */
 public class JedisTest {
 
-    private Jedis jedis=new Jedis("39.108.7.26",6379);//非切片额客户端连接
+    //private Jedis jedis=new Jedis("39.108.7.26",6379);//非切片额客户端连接
+    private Jedis jedis=new Jedis("127.0.0.1",6379);//非切片额客户端连接
 
     /**
      * 集群测试

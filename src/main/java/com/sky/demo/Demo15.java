@@ -27,11 +27,5 @@ public class Demo15 {
         float t= (float) 3.14;
         double m=  3.14;
         double pdou=  3L;
-
-
-
-
-
-
     }
 }
