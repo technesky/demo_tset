@@ -9,7 +9,7 @@ package com.sky.demo;
  */
 public class Demo15 {
     public static void main(String[] args) {
-        String a="sss";
+        /*String a="sss";
         String b=new String("sss");
         String c="sss";
         System.out.println(a==b);
@@ -26,6 +26,9 @@ public class Demo15 {
         System.out.println("===================================");
         float t= (float) 3.14;
         double m=  3.14;
-        double pdou=  3L;
+        double pdou=  3L;*/
+        String str1="028834第   ewew2342g";
+
+        System.out.println(str1.split("第")[1]);
     }
 }

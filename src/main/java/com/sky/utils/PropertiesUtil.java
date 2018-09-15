@@ -1,4 +1,4 @@
-package com.sky.util;
+package com.sky.utils;
 
 import java.io.IOException;
 import java.io.InputStream;

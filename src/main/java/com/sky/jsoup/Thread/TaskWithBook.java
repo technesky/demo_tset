@@ -1,8 +1,7 @@
 package com.sky.jsoup.Thread;
 
 import com.sky.jsoup.bean.Book;
-import com.sky.util.JsoupByBeanUtil;
-import com.sky.util.JsoupUtil;
+import com.sky.utils.JsoupByBeanUtil;
 
 import java.io.IOException;
 import java.util.concurrent.Callable;

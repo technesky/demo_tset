@@ -1,7 +1,7 @@
 package com.sky.jsoup.Thread;
 
 import com.sky.jsoup.bean.Book;
-import com.sky.util.JsoupUtil;
+import com.sky.utils.JsoupUtil;
 
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.Callable;

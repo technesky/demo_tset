@@ -26,7 +26,7 @@ public class ConnectionUtil {
         factory.setPort(5672);
         factory.setUsername("admin");
         factory.setPassword("admin");
-        factory.setVirtualHost("/VHost_test");
+        factory.setVirtualHost("/VHost_admin");
 
         //getting a connection
         if(connection==null){

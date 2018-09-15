@@ -2,8 +2,7 @@ package com.sky.jsoup.Thread;
 
 import com.sky.jsoup.bean.Book;
 import com.sky.jsoup.bean.Parameters;
-import com.sky.jsoup.core.CreateTxtMain;
-import com.sky.util.FileUtils;
+import com.sky.utils.FileUtils;
 
 import java.util.ArrayList;
 import java.util.Collections;

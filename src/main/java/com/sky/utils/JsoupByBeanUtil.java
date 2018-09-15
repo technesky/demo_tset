@@ -1,4 +1,4 @@
-package com.sky.util;
+package com.sky.utils;
 
 import com.sky.jsoup.bean.Book;
 import com.sky.jsoup.bean.BookParam;

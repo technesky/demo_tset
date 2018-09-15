@@ -3,9 +3,9 @@ package com.sky.jsoup.core;
 import com.sky.jsoup.Thread.BookTask;
 import com.sky.jsoup.bean.Book;
 import com.sky.jsoup.bean.BookParam;
-import com.sky.util.JsoupByBeanUtil;
-import com.sky.util.JsoupUtil;
-import com.sky.util.PropertiesUtil;
+import com.sky.utils.JsoupByBeanUtil;
+import com.sky.utils.JsoupUtil;
+import com.sky.utils.PropertiesUtil;
 import org.jsoup.nodes.Document;
 
 import java.io.IOException;

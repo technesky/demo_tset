@@ -1,8 +1,7 @@
-package com.sky.util;
+package com.sky.utils;
 
 import com.sky.jsoup.bean.Book;
 import com.sky.jsoup.bean.Parameters;
-import com.sky.jsoup.core.CreateTxtMain;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
