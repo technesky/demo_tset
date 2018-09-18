@@ -1,6 +1,11 @@
 package com.sky.easycode.controller;
 
 
+import com.sky.easycode.service.BookDownlistService;
+import org.springframework.stereotype.Controller;
+
+import javax.annotation.Resource;
+
 /**
  * 小说列表(BookDownlist)表控制层
  *
@@ -9,7 +14,7 @@ package com.sky.easycode.controller;
  */
 @Controller
 public class BookDownlistController {
-    protected Logger logger = Logger.getLogger(BookDownlistController.class);
+    //protected Logger logger = Logger.getLogger(BookDownlistController.class);
 	@Resource
 	private BookDownlistService bookDownlistService;
 
