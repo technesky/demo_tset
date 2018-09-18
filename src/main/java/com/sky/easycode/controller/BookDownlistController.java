@@ -15,7 +15,7 @@ import javax.annotation.Resource;
 @Controller
 public class BookDownlistController {
     //protected Logger logger = Logger.getLogger(BookDownlistController.class);
-	@Resource
-	private BookDownlistService bookDownlistService;
+	//@Resource
+	//private BookDownlistService bookDownlistService;
 
 }
